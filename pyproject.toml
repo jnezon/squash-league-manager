@@ -1,0 +1,11 @@
+[project]
+name = "squash-house-league-manager"
+version = "0.1.0"
+description = "A small app for managing a squash league roster and court flow"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.36.0",
+  "pandas>=2.0.0",
+  "openpyxl>=3.1.0",
+  "requests>=2.31.0"
+]
